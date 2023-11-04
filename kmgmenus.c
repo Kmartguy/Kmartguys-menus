@@ -1,7 +1,8 @@
 #include <ncurses.h>
 #include <string.h>
 #include <stdlib.h>
-
+//made & maintained by Kmartguy at github, @Kmartguy on youtube
+//controbutions welcome please point out any issues
 int kmg_menu_2(char *title, char *entrya, char *entryb, int exit_key, int leave_key)
 {
 	raw();
