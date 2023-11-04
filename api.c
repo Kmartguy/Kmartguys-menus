@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int menu_2(char *title, char *entrya, char *entryb, int exit_key, int leave_key)
+int kmg_menu_2(char *title, char *entrya, char *entryb, int exit_key, int leave_key)
 {
 	raw();
 	noecho();
@@ -84,7 +84,7 @@ int menu_2(char *title, char *entrya, char *entryb, int exit_key, int leave_key)
 
 }
 
-int menu_3(char *title, char *entrya, char *entryb, char *entryc, int exit_key, int leave_key)
+int kmg_menu_3(char *title, char *entrya, char *entryb, char *entryc, int exit_key, int leave_key)
 {
 	raw();
 	noecho();
@@ -177,7 +177,7 @@ int menu_3(char *title, char *entrya, char *entryb, char *entryc, int exit_key, 
 
 }
 
-int menu_4(char *title, char *entrya, char *entryb, char *entryc, char *entryd, int exit_key, int leave_key)
+int kmg_menu_4(char *title, char *entrya, char *entryb, char *entryc, char *entryd, int exit_key, int leave_key)
 {
 	raw();
 	noecho();
@@ -282,7 +282,7 @@ int menu_4(char *title, char *entrya, char *entryb, char *entryc, char *entryd, 
 	return out;
 
 }
-int menu_5(char *title, char *entrya, char *entryb, char *entryc, char *entryd, char *entrye, int exit_key, int leave_key)
+int kmg_menu_5(char *title, char *entrya, char *entryb, char *entryc, char *entryd, char *entrye, int exit_key, int leave_key)
 {
 	raw();
 	noecho();
@@ -402,7 +402,7 @@ int menu_5(char *title, char *entrya, char *entryb, char *entryc, char *entryd, 
 	return out;
 
 }
-int menu_6(char *title, char *entrya, char *entryb, char *entryc, char *entryd, char *entrye, char *entryf, int exit_key, int leave_key)
+int kmg_menu_6(char *title, char *entrya, char *entryb, char *entryc, char *entryd, char *entrye, char *entryf, int exit_key, int leave_key)
 {
 	raw();
 	noecho();
