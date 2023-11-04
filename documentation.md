@@ -1,5 +1,5 @@
 # Documentation:
-	## Menus:
+	# Menus:
 		"int = kmg_menu_*x*(title, itema, itemb *etc for x*, exit key, leave key);"
 		title: The title of the menu
 		item(s): The list entrys
